@@ -1,71 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .nav a{
-           display: inline-block;
-           width: 120px;
-           height: 58px;
-           background-color: #00b7ee;
-            text-align: center;
-            line-height: 48px;
-            color: #fff;
-            text-decoration: none;
-        }
-        .nav .bg1{
-            background: url(bg1.png) no-repeat;
-
-        }
-        .nav .bg1:hover{
-            background-image: url(bg11.png) ;
-            
-        }
-        .nav .bg2{
-            background: url(bg2.png) no-repeat;
-        }
-        .nav .bg2:hover{
-            background-image: url(bg22.png) ;
-        }
-        .nav .bg3{
-            background: url(bg3.png) no-repeat;
-        }
-        .nav .bg3:hover{
-            background-image: url(bg1.png) ;
-        }
-        .nav .bg4{
-            background: url(bg4.png) no-repeat;
-        }
-        .nav .bg4:hover{
-            background-image: url(bg2.png) ;
-        }
-        .nav .bg5{
-            background: url(bg5.png) no-repeat;
-        }
-        .nav .bg5:hover{
-            background-image: url(bg3.png) ;
-        }
-
-
-
-    </style>
-
-
-
-
 </head>
+
 <body>
-    <div class="nav">
-        <a href="#" class="bg1">五彩导航</a>
-        <a href="#" class="bg2">五彩导航</a>
-        <a href="#" class="bg3">五彩导航</a>
-        <a href="#" class="bg4">五彩导航</a>
-        <a href="#" class="bg5">五彩导航</a>
-    </div>
+    <h3>青春不常在，抓紧谈恋爱</h3><br>
+    <table width="500">
+        <!--第一行-->
+        <tr>
+            <td>性别</td>
+            <td><input type="radio" name="sex" id="nan"><label for="nan">男</label>
+                <input type="radio" name="sex" id="nv"><label for="nv">女</label>
+            </td>
+        </tr>
+        <!--第二行-->
+        <tr>
+            <td>生日</td>
+            <td><select>
+                    <option>--请选择年份</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+
+                </select>
+
+                <select>
+                    <option>--请选择月份</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+
+                <select>
+                    <option>--请选择日</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>4</option>
+                    <option>11</option>
+                </select>
+
+
+
+
+
+
+            </td>
+
+
+
+        </tr>
+        <!--第三行-->
+        <tr>
+            <td>所在地区</td>
+            <td><input type="text"></td>
+        </tr>
+        <!--第四行-->
+        <tr>
+            <td>恋爱状况</td>
+            <td><input type="radio" name="marry" id="marry"><label for="marry">单身</label>
+                <input type="radio" name="marry" id="marry1"><label for="marry1">一次</label>
+                <input type="radio" name="marry" id="marry2"><label for="marry2">多次</label>
+
+            </td>
+        </tr>
+        <!--第五行-->
+        <tr>
+            <td>学历</td>
+            <td><input type="text" value="本科"></td>
+        </tr>
+        <!--第六行-->
+        <tr>
+            <td>喜欢的类型</td>
+            <td>
+                <input type="checkbox" name="love"> 好看
+                <input type="checkbox" name="love"> 有钱
+                <input type="checkbox" name="love"> 善良
+                <input type="checkbox" name="love" checked="checked"> 正常人
+
+
+
+            </td>
+
+        </tr>
+        <!--第七行-->
+        <tr>
+            <td>自我介绍</td>
+            <td>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </td>
+        </tr>
+        <!--第八行-->
+        <tr>
+            <td></td>
+            <td><input type="submit" value="免费注册"></td>
+
+        </tr>
+        <!--第九行-->
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" checked="checked"> 我同意注册条款
+            </td>
+        </tr>
+        <!--第十行-->
+        <tr>
+            <td></td>
+            <td><a href="http://www.baidu.com">我是会员</a>
+            </td>
+
+
+        </tr>
+        <!--第十行-->
+        <tr>
+            <td></td>
+            <td>
+                <h5>我承诺</h5>
+                <ul>
+                    <li>年满十八、单身</li>
+                    <li>态度认真且严肃</li>
+                </ul>
+            </td>
+
+
+        </tr>
+
+
+
+
+
+
+    </table>
+
+
 
 
 </body>
+
 </html>
